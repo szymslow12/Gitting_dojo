@@ -9,7 +9,6 @@ result of adding 5 to 3, pres -a-. Are you fed up with it, press -q-.")
         quit
     
 
-
 def joke():
     answer = (input = 'Hello, wanna hear a joke? Press  -j - key." )
     if answer == 'j'
