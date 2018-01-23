@@ -1,4 +1,5 @@
-print ('Hello, I'm Gittie!')
+def introduce():
+    print ("Hello, I'm Gittie! Nice to meet you! ")
 def joke():
     answer = (input = 'Hello, wanna hear a joke? Press  -j - key." )
     if answer == 'j'
