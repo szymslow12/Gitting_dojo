@@ -6,3 +6,7 @@ def joke():
         None. That's a hardware problem.")
     else: 
         return joke() 
+def add(a, b):
+    a = 5
+    b = 3
+return str(a) + " " + str(b)
