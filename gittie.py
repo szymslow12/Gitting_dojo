@@ -1,13 +1,10 @@
-print ('Hello, I'm Gittie!')
-
-
 def introduce():   
     decision = input ("Help You? If wanna I tell you something press -t-. \ Wanna know \
 result of adding 5 to 3, pres -a-. Are you fed up with it, press -q-.")
     if decision == 't':
         joke ()
     elif decision == 'a':
-        add ()5,3)
+        add (5,3)
     elif decision ==  'q':
         quit
     
@@ -27,4 +24,4 @@ def add(a,b):
     return str(a) + " " + str(b)
 
 
-start()
+introduce()
